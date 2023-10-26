@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0C369052AEABAE400AA0A6C /* McAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C369042AEABAE400AA0A6C /* McAppApp.swift */; };
+		F0C369072AEABAE400AA0A6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C369062AEABAE400AA0A6C /* ContentView.swift */; };
+		F0C369092AEABAE600AA0A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C369082AEABAE600AA0A6C /* Assets.xcassets */; };
+		F0C3690C2AEABAE600AA0A6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C3690B2AEABAE600AA0A6C /* Preview Assets.xcassets */; };
+		F0C369172AEABAE600AA0A6C /* McAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C369162AEABAE600AA0A6C /* McAppTests.swift */; };
+		F0C369212AEABAE600AA0A6C /* McAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C369202AEABAE600AA0A6C /* McAppUITests.swift */; };
+		F0C369232AEABAE600AA0A6C /* McAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C369222AEABAE600AA0A6C /* McAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0C369132AEABAE600AA0A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C368F92AEABAE400AA0A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C369002AEABAE400AA0A6C;
+			remoteInfo = McApp;
+		};
+		F0C3691D2AEABAE600AA0A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C368F92AEABAE400AA0A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C369002AEABAE400AA0A6C;
+			remoteInfo = McApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0C369012AEABAE400AA0A6C /* McApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C369042AEABAE400AA0A6C /* McAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McAppApp.swift; sourceTree = "<group>"; };
+		F0C369062AEABAE400AA0A6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0C369082AEABAE600AA0A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0C3690B2AEABAE600AA0A6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0C3690D2AEABAE600AA0A6C /* McApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = McApp.entitlements; sourceTree = "<group>"; };
+		F0C369122AEABAE600AA0A6C /* McAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C369162AEABAE600AA0A6C /* McAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McAppTests.swift; sourceTree = "<group>"; };
+		F0C3691C2AEABAE600AA0A6C /* McAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C369202AEABAE600AA0A6C /* McAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McAppUITests.swift; sourceTree = "<group>"; };
+		F0C369222AEABAE600AA0A6C /* McAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C368FE2AEABAE400AA0A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C3690F2AEABAE600AA0A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C369192AEABAE600AA0A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0C368F82AEABAE400AA0A6C = {
+			isa = PBXGroup;
+			children = (
+				F0C369032AEABAE400AA0A6C /* McApp */,
+				F0C369152AEABAE600AA0A6C /* McAppTests */,
+				F0C3691F2AEABAE600AA0A6C /* McAppUITests */,
+				F0C369022AEABAE400AA0A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C369022AEABAE400AA0A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C369012AEABAE400AA0A6C /* McApp.app */,
+				F0C369122AEABAE600AA0A6C /* McAppTests.xctest */,
+				F0C3691C2AEABAE600AA0A6C /* McAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C369032AEABAE400AA0A6C /* McApp */ = {
+			isa = PBXGroup;
+			children = (
+				F0C369042AEABAE400AA0A6C /* McAppApp.swift */,
+				F0C369062AEABAE400AA0A6C /* ContentView.swift */,
+				F0C369082AEABAE600AA0A6C /* Assets.xcassets */,
+				F0C3690D2AEABAE600AA0A6C /* McApp.entitlements */,
+				F0C3690A2AEABAE600AA0A6C /* Preview Content */,
+			);
+			path = McApp;
+			sourceTree = "<group>";
+		};
+		F0C3690A2AEABAE600AA0A6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3690B2AEABAE600AA0A6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0C369152AEABAE600AA0A6C /* McAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C369162AEABAE600AA0A6C /* McAppTests.swift */,
+			);
+			path = McAppTests;
+			sourceTree = "<group>";
+		};
+		F0C3691F2AEABAE600AA0A6C /* McAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C369202AEABAE600AA0A6C /* McAppUITests.swift */,
+				F0C369222AEABAE600AA0A6C /* McAppUITestsLaunchTests.swift */,
+			);
+			path = McAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C369002AEABAE400AA0A6C /* McApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C369262AEABAE600AA0A6C /* Build configuration list for PBXNativeTarget "McApp" */;
+			buildPhases = (
+				F0C368FD2AEABAE400AA0A6C /* Sources */,
+				F0C368FE2AEABAE400AA0A6C /* Frameworks */,
+				F0C368FF2AEABAE400AA0A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = McApp;
+			productName = McApp;
+			productReference = F0C369012AEABAE400AA0A6C /* McApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0C369112AEABAE600AA0A6C /* McAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C369292AEABAE600AA0A6C /* Build configuration list for PBXNativeTarget "McAppTests" */;
+			buildPhases = (
+				F0C3690E2AEABAE600AA0A6C /* Sources */,
+				F0C3690F2AEABAE600AA0A6C /* Frameworks */,
+				F0C369102AEABAE600AA0A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C369142AEABAE600AA0A6C /* PBXTargetDependency */,
+			);
+			name = McAppTests;
+			productName = McAppTests;
+			productReference = F0C369122AEABAE600AA0A6C /* McAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0C3691B2AEABAE600AA0A6C /* McAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C3692C2AEABAE600AA0A6C /* Build configuration list for PBXNativeTarget "McAppUITests" */;
+			buildPhases = (
+				F0C369182AEABAE600AA0A6C /* Sources */,
+				F0C369192AEABAE600AA0A6C /* Frameworks */,
+				F0C3691A2AEABAE600AA0A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C3691E2AEABAE600AA0A6C /* PBXTargetDependency */,
+			);
+			name = McAppUITests;
+			productName = McAppUITests;
+			productReference = F0C3691C2AEABAE600AA0A6C /* McAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C368F92AEABAE400AA0A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F0C369002AEABAE400AA0A6C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F0C369112AEABAE600AA0A6C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F0C369002AEABAE400AA0A6C;
+					};
+					F0C3691B2AEABAE600AA0A6C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F0C369002AEABAE400AA0A6C;
+					};
+				};
+			};
+			buildConfigurationList = F0C368FC2AEABAE400AA0A6C /* Build configuration list for PBXProject "McApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0C368F82AEABAE400AA0A6C;
+			productRefGroup = F0C369022AEABAE400AA0A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C369002AEABAE400AA0A6C /* McApp */,
+				F0C369112AEABAE600AA0A6C /* McAppTests */,
+				F0C3691B2AEABAE600AA0A6C /* McAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C368FF2AEABAE400AA0A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3690C2AEABAE600AA0A6C /* Preview Assets.xcassets in Resources */,
+				F0C369092AEABAE600AA0A6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C369102AEABAE600AA0A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C3691A2AEABAE600AA0A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C368FD2AEABAE400AA0A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C369072AEABAE400AA0A6C /* ContentView.swift in Sources */,
+				F0C369052AEABAE400AA0A6C /* McAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C3690E2AEABAE600AA0A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C369172AEABAE600AA0A6C /* McAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C369182AEABAE600AA0A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C369232AEABAE600AA0A6C /* McAppUITestsLaunchTests.swift in Sources */,
+				F0C369212AEABAE600AA0A6C /* McAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0C369142AEABAE600AA0A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C369002AEABAE400AA0A6C /* McApp */;
+			targetProxy = F0C369132AEABAE600AA0A6C /* PBXContainerItemProxy */;
+		};
+		F0C3691E2AEABAE600AA0A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C369002AEABAE400AA0A6C /* McApp */;
+			targetProxy = F0C3691D2AEABAE600AA0A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0C369242AEABAE600AA0A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0C369252AEABAE600AA0A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F0C369272AEABAE600AA0A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = McApp/McApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"McApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2YJXB5SV59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.McApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0C369282AEABAE600AA0A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = McApp/McApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"McApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2YJXB5SV59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.McApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F0C3692A2AEABAE600AA0A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YJXB5SV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.McAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/McApp";
+			};
+			name = Debug;
+		};
+		F0C3692B2AEABAE600AA0A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YJXB5SV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.McAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/McApp";
+			};
+			name = Release;
+		};
+		F0C3692D2AEABAE600AA0A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YJXB5SV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.McAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = McApp;
+			};
+			name = Debug;
+		};
+		F0C3692E2AEABAE600AA0A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YJXB5SV59;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.McAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = McApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C368FC2AEABAE400AA0A6C /* Build configuration list for PBXProject "McApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C369242AEABAE600AA0A6C /* Debug */,
+				F0C369252AEABAE600AA0A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C369262AEABAE600AA0A6C /* Build configuration list for PBXNativeTarget "McApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C369272AEABAE600AA0A6C /* Debug */,
+				F0C369282AEABAE600AA0A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C369292AEABAE600AA0A6C /* Build configuration list for PBXNativeTarget "McAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C3692A2AEABAE600AA0A6C /* Debug */,
+				F0C3692B2AEABAE600AA0A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C3692C2AEABAE600AA0A6C /* Build configuration list for PBXNativeTarget "McAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C3692D2AEABAE600AA0A6C /* Debug */,
+				F0C3692E2AEABAE600AA0A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C368F92AEABAE400AA0A6C /* Project object */;
+}
